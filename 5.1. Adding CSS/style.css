@@ -1,0 +1,9 @@
+html {
+    background: white;
+}
+h1 {
+    background: rgb(104, 74, 91);
+    color: lightpink;
+    text-align: center;
+    border-radius: 100%;
+}
