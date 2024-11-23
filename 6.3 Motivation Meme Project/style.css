@@ -1,0 +1,46 @@
+html {
+    background-color: black;
+}
+
+.header {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.image {
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.confete {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.confete:hover {
+    background-color: gray;
+}
